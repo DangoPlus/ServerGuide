@@ -18,7 +18,7 @@
 
     单用户
     {
-      "server":"my_server_ip",
+      "server":"vps_server_ip",
       "server_port":8388,
       "local_address": "127.0.0.1",
       "local_port":1080,
@@ -29,7 +29,7 @@
     }
     多用户
     {
-    "server": "0.0.0.0",
+    "server": "vps_server_ip",
     "port_password": {
         "8381": "foobar1",
         "8382": "foobar2",
