@@ -13,7 +13,7 @@
 
 `pip install shadowsocks`
 
-### 编辑配置文件
+### 1. 编辑配置文件
 `创建/etc/shadowsocks.json文件`
 
     单用户
@@ -39,10 +39,15 @@
     "timeout": 300,
     "method": "aes-256-cfb"
     }
-### 启动shadowsocks
+
+
+### 2. [优化shadowsocks连接](https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks)
+
+
+### 3. 启动shadowsocks
 `ssserver -c /etc/shadowsocks.json -d start`
 
-###开机自动后台启动shadowsocks
+### 4. 开机自动后台启动shadowsocks
 `编辑/etc/rc.local文件，并添加启动shadowsocks的语句`
 
 ## 四、使用LNMP一键安装包安装服务器环境
